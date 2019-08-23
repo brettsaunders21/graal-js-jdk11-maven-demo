@@ -58,7 +58,7 @@ mvn exec:exec@nograal
 
 The benchmark prints the time per iteration in milliseconds, so lower values are better.
 
-## Running on GraalVM
+## Running on GraalV
 
 This project is also setup to run on GraalVM. The setup is the same except
 that your JAVA_HOME should point to a directory contain GraalVM. In this case,
