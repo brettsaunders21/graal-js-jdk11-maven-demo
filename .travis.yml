@@ -9,11 +9,6 @@ jdk:
 env:
     - GRAALVM_VERSION="19.0.0"
 
-matrix:
-    exclude:
-        - jdk: openjdk8
-          os: osx
-
 install:
     - |
         if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then DOWNLOAD_OS_NAME="linux"; fi
