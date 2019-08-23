@@ -21,6 +21,9 @@ script:
     - mvn package
     - mvn exec:exec
     
+before_deploy:
+    - cd ~
+    
 deploy:
   provider: releases
   api_key:
